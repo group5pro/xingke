@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="about-me-web-api" />
+        <module name="about-me-web-ui" />
+        <module name="xing-ke-commons" />
+        <module name="xing-ke-domain" />
+        <module name="xing-ke-web-admin" />
+        <module name="xing-ke-web-api" />
+        <module name="xing-ke-web-ui" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
