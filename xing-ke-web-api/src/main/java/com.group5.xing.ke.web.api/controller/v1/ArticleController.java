@@ -21,8 +21,14 @@ public class ArticleController {
     @RequestMapping(value = "content", method = RequestMethod.GET)
     public BaseResult article() {
         List<TbArtcleDTO> tbArtcleDTOS = service.select();
-        BaseResult baseResult = BaseResult.success("文章信息获取成功", tbArtcleDTOS);
-        return baseResult;
+        if(tbArtcleDTOS!=null){
+            BaseResult baseResult = BaseResult.success("文章信息获取成功", tbArtcleDTOS);
+            return baseResult;
+        }else {
+            BaseResult baseResult = BaseResult.fail("文章信息获取失败");
+            return baseResult;
+        }
+
     }
 
 }

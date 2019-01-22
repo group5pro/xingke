@@ -6,7 +6,9 @@ import java.util.Date;
 
 @Data
 public class TbArtcleDTO {
+    //用户ID
     private Long id ;
+    //标题ID
     private Long tid;
     private String desc;
     private String title;
@@ -14,5 +16,6 @@ public class TbArtcleDTO {
     private Long ccount;
     private Date created;
     private String content;
+
 
 }
