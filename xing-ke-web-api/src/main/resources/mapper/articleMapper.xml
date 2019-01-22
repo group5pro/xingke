@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.group5.xing.ke.web.api.dao.ArticleDao">
+
+<select id="select" resultType="TbArtcle">
+    SELECT
+  b.collector_id As "id.collectorId",
+  a.tid,
+  a.desc,
+  a.title,
+  a.tpic,
+  a.ccount,
+  a.created,
+  c.content As "content.content"
+  FROM tb_article_collect AS b,
+  tb_article AS a,
+  tb_strategy_comment AS c
+  WHERE a.tid = b.tid
+    AND c.commentor_id = b.collector_id
+</select>
+
+
+  <select id="selectGetId" resultType="TbArtcleCollect">
+    SELECT * FROM tb_article_collect limit 1,1
+</select>
+
+  <select id="selectGetContent" resultType="TbStrategyComment">
+    SELECT * FROM tb_strategy_comment limit 1,1
+</select>
+
+  <select id="selectArticle" resultType="TbArtcle">
+    SELECT
+      tid,
+      desc,
+      title,
+      tpic,
+      ccount,
+      created
+    FROM
+      tb_article
+  </select>
+
+
+
+</mapper>
