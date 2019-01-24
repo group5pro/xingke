@@ -3,6 +3,7 @@ package com.group5.xing.ke.web.api.service.Impl;
 import com.group5.xing.ke.web.api.DTO.DescDTO;
 import com.group5.xing.ke.web.api.DTO.LineDTO;
 import com.group5.xing.ke.web.api.DTO.TbLine;
+import com.group5.xing.ke.web.api.DTO.TbProduct;
 import com.group5.xing.ke.web.api.dao.LineDao;
 import com.group5.xing.ke.web.api.service.LineService;
 import org.springframework.beans.BeanUtils;
@@ -49,5 +50,10 @@ public class LineServiceImpl implements LineService {
 
         lineDTO.setDay(list);
         return lineDTO;
+    }
+
+    @Override
+    public List<TbProduct> selectProduct() {
+        return dao.selectProduct();
     }
 }

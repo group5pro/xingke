@@ -4,7 +4,6 @@
 
     <select id="select" resultType="LineDTO">
   SELECT
-
     c.feature As "feature",
     c.pic As "pic",
     b.city As "firstCity",
@@ -16,7 +15,7 @@
     f.deptime,
     f.backtime
     FROM tb_line AS a, tb_city AS b, feature_port AS c , tb_categoryfeature AS e, tb_product AS f
-    WHERE  b.id = c.city_id AND b.id = c.city_id AND a.feature1_id = c.feature_id AND f.categoryId=e.categoryid
+    WHERE  b.id = c.city_id AND b.id = c.city_id AND a.feature1_id = c.feature_id AND e.categoryid=a.kind AND f.pid=a.line_id
     AND f.pid=#{pid}
 </select>
 
@@ -49,6 +48,19 @@
     a.cityid=c.id
     AND
     b.feature_id=#{featureId}
+    </select>
+    
+    
+    <select id="selectProduct" resultType="TbProduct">
+        SELECT
+        a.pid,
+        a.title,
+        a.pic,
+        c.categoryname As "categoryName",
+        a.price,
+        b.city As "city"
+        FROM tb_product As a ,tb_city As b ,tb_categoryfeature As c
+        WHERE a.pid=b.id AND c.categoryid=a.categoryId
     </select>
 
 </mapper>

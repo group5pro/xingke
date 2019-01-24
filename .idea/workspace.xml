@@ -7,16 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f8616b5-3948-44dd-b204-9d9a28858861" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/DTO/DayDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/DTO/DescDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/DTO/LineDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/DTO/TbLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/controller/v1/LineController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/dao/LineDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/service/Impl/LineServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/service/LineService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xing-ke-web-api/src/main/resources/mapper/lineMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/DTO/DayDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/DTO/TbProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/controller/v1/LineController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/controller/v1/LineController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/dao/LineDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/dao/LineDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/service/Impl/LineServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/service/Impl/LineServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/service/LineService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/service/LineService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xing-ke-web-api/src/main/resources/mapper/lineMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xing-ke-web-api/src/main/resources/mapper/lineMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xing-ke-web-api/target/classes/mapper/lineMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xing-ke-web-api/target/classes/mapper/lineMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xing-ke-web-api/target/xing-ke-web-api-1.0.0-SNAPSHOT/WEB-INF/classes/mapper/lineMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xing-ke-web-api/target/xing-ke-web-api-1.0.0-SNAPSHOT/WEB-INF/classes/mapper/lineMapper.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,24 +38,24 @@
           <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.2" value="3" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.2" value="4" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="14" />
-          <entry key="java" value="63" />
+          <entry key="java" value="77" />
           <entry key="properties" value="4" />
-          <entry key="xml" value="25" />
+          <entry key="xml" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="14" />
-          <entry key="JAVA" value="63" />
+          <entry key="JAVA" value="77" />
           <entry key="Properties" value="4" />
-          <entry key="XML" value="25" />
+          <entry key="XML" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.core.usages.trigger">
@@ -67,18 +66,18 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="java" value="4160" />
+          <entry key="java" value="4292" />
           <entry key="properties" value="11" />
-          <entry key="xml" value="1579" />
+          <entry key="xml" value="1838" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4160" />
+          <entry key="JAVA" value="4292" />
           <entry key="PLAIN_TEXT" value="10" />
           <entry key="Properties" value="11" />
-          <entry key="SQL" value="147" />
-          <entry key="XML" value="1432" />
+          <entry key="SQL" value="163" />
+          <entry key="XML" value="1675" />
         </counts>
       </usages-collector>
     </session>
@@ -88,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/dao/LineDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="285">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,22 +97,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/service/Impl/LineServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/controller/v1/LineController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+            <state relative-caret-position="407">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xing-ke-web-api/src/main/resources/mapper/lineMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -131,15 +121,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/DTO/TbLine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/DTO/PictureDTO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
@@ -151,11 +132,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/DTO/LineDTO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="285">
+              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/DTO/TbLine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -173,19 +163,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/DTO/DescDTO.java">
+        <entry file="file://$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/DTO/TbProduct.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
-              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+              <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/DTO/DayDTO.java">
+        <entry file="file://$PROJECT_DIR$/xing-ke-web-api/src/main/resources/mapper/lineMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="255">
+              <caret line="55" column="11" lean-forward="true" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/DTO/DescDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -216,7 +218,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/xing-ke-web-ui/pom.xml" />
         <option value="$PROJECT_DIR$/xing-ke-web-admin/src/main/resources/mapper/AdminMapper.xml.fxml" />
         <option value="$PROJECT_DIR$/xing-ke-web-admin/src/main/resources/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/xing-ke-web-admin/src/main/resources/spring-context.xml" />
@@ -258,15 +259,16 @@
         <option value="$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/service/Impl/StrategyServiceImpl.java" />
         <option value="$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/controller/v1/StrategyController.java" />
         <option value="$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/service/ArticleService.java" />
-        <option value="$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/service/LineService.java" />
         <option value="$PROJECT_DIR$/xing-ke-domain/src/main/java/com/group5/xing/ke/domain/TbLine.java" />
-        <option value="$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/controller/v1/LineController.java" />
-        <option value="$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/dao/LineDao.java" />
         <option value="$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/DTO/TbLine.java" />
-        <option value="$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/service/Impl/LineServiceImpl.java" />
         <option value="$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/DTO/LineDTO.java" />
         <option value="$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/DTO/DescDTO.java" />
         <option value="$PROJECT_DIR$/xing-ke-web-api/src/main/resources/mapper/lineMapper.xml" />
+        <option value="$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/DTO/TbProduct.java" />
+        <option value="$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/service/Impl/LineServiceImpl.java" />
+        <option value="$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/service/LineService.java" />
+        <option value="$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/dao/LineDao.java" />
+        <option value="$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/controller/v1/LineController.java" />
       </list>
     </option>
   </component>
@@ -319,7 +321,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-6" />
     <option name="width" value="1378" />
     <option name="height" value="780" />
@@ -332,134 +334,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="xingke" type="58d84e3e:PackageViewProjectNode" />
-              <item name="xing-ke-web-api" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="xingke" type="58d84e3e:PackageViewProjectNode" />
-              <item name="xing-ke-web-api" type="616d4139:PackageViewModuleNode" />
-              <item name="com.group5.xing.ke.web.api" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="xingke" type="58d84e3e:PackageViewProjectNode" />
-              <item name="xing-ke-web-ui" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="xingke" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="xing-ke-web-api" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="xingke" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="xing-ke-web-api" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="xingke" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="xing-ke-web-api" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="xingke" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="xing-ke-web-api" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="xingke" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="xing-ke-web-api" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com.group5.xing.ke.web.api" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="xingke" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="xing-ke-web-api" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com.group5.xing.ke.web.api" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="xingke" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="xing-ke-web-api" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com.group5.xing.ke.web.api" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="v1" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="xingke" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="xing-ke-web-api" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com.group5.xing.ke.web.api" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="dao" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="xingke" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="xing-ke-web-api" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com.group5.xing.ke.web.api" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="DTO" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="xingke" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="xing-ke-web-api" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com.group5.xing.ke.web.api" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="service" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="xingke" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="xing-ke-web-api" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com.group5.xing.ke.web.api" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="service" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Impl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="xingke" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="xing-ke-web-api" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="xingke" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="xing-ke-web-api" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="mapper" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -733,6 +607,134 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="xingke" type="58d84e3e:PackageViewProjectNode" />
+              <item name="xing-ke-web-api" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="xingke" type="58d84e3e:PackageViewProjectNode" />
+              <item name="xing-ke-web-api" type="616d4139:PackageViewModuleNode" />
+              <item name="com.group5.xing.ke.web.api" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="xingke" type="58d84e3e:PackageViewProjectNode" />
+              <item name="xing-ke-web-ui" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="xingke" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="xing-ke-web-api" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="xingke" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="xing-ke-web-api" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="xingke" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="xing-ke-web-api" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="xingke" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="xing-ke-web-api" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="xingke" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="xing-ke-web-api" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com.group5.xing.ke.web.api" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="xingke" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="xing-ke-web-api" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com.group5.xing.ke.web.api" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="xingke" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="xing-ke-web-api" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com.group5.xing.ke.web.api" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="v1" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="xingke" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="xing-ke-web-api" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com.group5.xing.ke.web.api" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="dao" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="xingke" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="xing-ke-web-api" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com.group5.xing.ke.web.api" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="DTO" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="xingke" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="xing-ke-web-api" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com.group5.xing.ke.web.api" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="service" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="xingke" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="xing-ke-web-api" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com.group5.xing.ke.web.api" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="service" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Impl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="xingke" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="xing-ke-web-api" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="xingke" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="xing-ke-web-api" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mapper" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -749,15 +751,8 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.group5.xing.ke.web.api.service" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.xing.ke.domain" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.group5.xing.ke.web.api.DTO" />
-      <recent name="com.group5.xing.ke.commons.validator" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Git本地仓库\xingke\xing-ke-web-api\src\main\webapp" />
@@ -765,6 +760,14 @@
       <recent name="E:\JavaEE\IDEA项目\备份一\xingke\xing-ke-web-ui\src\main" />
       <recent name="E:\JavaEE\IDEA项目\备份一\xingke\xing-ke-web-api\src\main" />
       <recent name="E:\JavaEE\IDEA项目\xingke\xing-ke-web-admin\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.group5.xing.ke.web.api.DTO" />
+      <recent name="com.group5.xing.ke.commons.validator" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.group5.xing.ke.web.api.DTO" />
+      <recent name="com.group5.xing.ke.web.api.service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -917,17 +920,26 @@
       <workItem from="1548141559227" duration="9384000" />
       <workItem from="1548215799700" duration="15621000" />
       <workItem from="1548293822769" duration="19380000" />
+      <workItem from="1548318942656" duration="7887000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70168000" />
+    <option name="totallyTimeSpent" value="78055000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49917898" visible="true" weight="0.28290468" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49917898" visible="true" weight="0.28290468" />
       <window_info id="Structure" order="1" sideWeight="0.500821" side_tool="true" weight="0.19894099" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -945,7 +957,7 @@
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.52052546" />
-      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.32840723" />
       <window_info anchor="bottom" id="Spring" order="10" weight="0.32840723" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32840723" />
@@ -973,14 +985,28 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/service/Impl/LineServiceImpl.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/service/Impl/LineServiceImpl.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/xing-ke-web-ui/src/main/resources/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xing-ke-web-ui/src/main/resources/spring-context.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1063,13 +1089,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xing-ke-domain/src/main/java/com/group5/xing/ke/domain/TbStrategyComment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1168,9 +1187,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1178,9 +1194,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1191,34 +1204,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/service/LineService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/service/Impl/ArticleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/controller/v1/ArticleController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
           <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1226,11 +1215,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="29" column="24" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1238,19 +1222,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="387">
           <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xing-ke-domain/src/main/java/com/group5/xing/ke/domain/TbLine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/xing-ke-domain/src/main/java/com/group5/xing/ke/domain/TbLine.java" />
     <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/4.3.17.RELEASE/spring-web-4.3.17.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="71">
@@ -1258,20 +1233,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/controller/v1/LineController.java">
+    <entry file="file://$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/service/Impl/ArticleServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="380">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xing-ke-domain/src/main/java/com/group5/xing/ke/domain/TbStrategyComment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/service/LineService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/service/Impl/LineServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="56" column="25" lean-forward="true" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1875#1876#0" expanded="true" />
+            <element signature="e#1917#1918#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/dao/LineDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/controller/v1/LineController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1285,10 +1301,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/service/Impl/LineServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/xing-ke-web-api/src/main/resources/mapper/lineMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        <state relative-caret-position="255">
+          <caret line="55" column="11" lean-forward="true" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/DTO/TbArtcleDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/DTO/TbLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/DTO/TbProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1305,23 +1345,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/DTO/TbLine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/DTO/TbArtcleDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/DTO/PictureDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1331,8 +1354,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xing-ke-web-api/src/main/java/com.group5.xing.ke.web.api/DTO/LineDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="285">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1343,13 +1366,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xing-ke-web-api/src/main/resources/mapper/lineMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
