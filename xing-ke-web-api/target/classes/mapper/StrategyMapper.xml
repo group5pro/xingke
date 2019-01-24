@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.group5.xing.ke.web.api.dao.StrategyDao">
+
+    <select id="selectall" resultType="TbStrategy">
+    SELECT * FROM tb_strategy
+    </select>
+
+    <select id="selectBySid" resultType="TbStrategyDTO">
+
+       SELECT
+      a.id,
+	  a.sid,
+	  a.title,
+	  a.line,
+	  a.splay,
+	  a.sfood,
+	  a.saccommodation,
+	  a.traffic,
+	  a.ccount,
+	  b.picture As "pic",
+	  c.picturecategoryname As "categoryname",
+	  d.content As "content"
+      FROM tb_strategy AS a,
+      tb_picture AS b,
+      tb_piccategory AS c,
+     tb_strategy_comment AS d
+    WHERE a.sid = b.sid
+    AND b.pictureid = c.pictureid
+    AND a.sid = d.strategy_id
+    AND a.sid = #{sid}
+    </select>
+
+    <select id="selectPicture" resultType="PictureDTO">
+       SELECT 	a.picture,b.piccategoryname As "categoryname" FROM tb_picture AS a, tb_piccategory AS b WHERE a.pictureid =  b.pictureid AND sid=#{sid}
+    </select>
+
+    <select id="selectStrategy" resultType="TbStrategyDTO">
+         SELECT
+	  a.sid,
+	  a.author,
+	  a.title,
+	  a.line,
+	  a.splay,
+	  a.sfood,
+	  a.saccommodation,
+	  a.traffic,
+	  a.ccount,
+	  a.created,
+	  a.updated,
+	  d.content As "content"
+      FROM tb_strategy AS a,
+     tb_strategy_comment AS d
+    WHERE
+     a.sid = d.strategy_id
+    AND a.sid = #{sid}
+    </select>
+
+</mapper>
